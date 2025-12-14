@@ -7,7 +7,6 @@ import TextFile from "./windows/TextFile.jsx";
 import ImageFile from "./windows/ImageFile.jsx";
 import Contact from "./windows/Contact.jsx";
 import Home from "./components/Home.jsx";
-
 // 🆕 BOOT SYSTEM
 import BootScreen from "./boot/BootScreen";
 import useBootStore from "./store/bootStore";

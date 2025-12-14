@@ -34,6 +34,18 @@ body {
   @apply text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.7)];
 }
 
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    circle at top,
+    rgba(255,255,255,0.04),
+    rgba(0,0,0,0.15)
+  );
+  pointer-events: none;
+}
+
 
 
 
